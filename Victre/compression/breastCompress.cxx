@@ -1573,7 +1573,7 @@ int main(int argc, char *argv[])
 
     // write FEBio simulation file
     cout << "Writing FEBio simulation file...\n";
-    ofstream febFile;
+    std::ofstream febFile;
     char febioFilename[256];
     sprintf(febioFilename, "%s/febio_%d_%d.feb", workDir.c_str(), seed, meshCount);
     febFile.open(febioFilename);

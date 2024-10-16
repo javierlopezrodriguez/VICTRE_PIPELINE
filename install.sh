@@ -9,6 +9,10 @@
 # BOOST_OPTIONS_LIB=/usr/lib64 # route to libboost_program_options
 # VTK_DIR=/usr/local/VTK-build
 
+BOOST_INCLUDE=/usr/include/boost
+BOOST_OPTIONS_LIB=/usr/lib/x86_64-linux-gnu
+VTK_DIR=/usr/include/vtk-9.1
+
 # ------------------ DO NOT MODIFY --------------------------
 
 RED='\033[1;31m'
