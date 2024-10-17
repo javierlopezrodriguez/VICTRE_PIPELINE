@@ -17,7 +17,7 @@ loc_file = original_phantom.replace(".raw.gz", ".loc")
 if not os.path.exists(loc_file):
 
     # Create the content for the .loc file
-    loc_content = "0, 0, 0\n0, 0, 0"
+    loc_content = "0, 0, 0\n0, 0, 0" # two lines to avoid error in cropping stage
 
     # Write the content to the new .loc file
     with open(loc_file, "w") as file:
